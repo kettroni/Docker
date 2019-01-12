@@ -19,3 +19,14 @@ Then after I run apt-get install curl:
 
 Now I can execute the given script from the exercise like so:
 ![1.3p4](https://github.com/kettroni/Docker/blob/master/Exercise1/ex1_3p4.png "Exercise 1.3p4")
+
+## Ex 1.4  
+First I created a docker file [Docker File](https://github.com/kettroni/Docker/blob/master/Exercise1/Ex1.4/Dockerfile).
+
+Then I build it with: 
+```
+docker build -t curler .
+```
+
+Now that I had created the image I simply ran the program:  
+![1.4](https://github.com/kettroni/Docker/blob/master/Exercise1/ex1_4.png "Exercise 1.4")
