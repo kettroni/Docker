@@ -11,7 +11,7 @@ Docker Course Exercises
 Firstly I ran ubuntu:16.04 container with:
 ![1.3p1](https://github.com/kettroni/Docker/blob/master/Exercise1/ex1_3p1.png "Exercise 1.3p1")
 
-It opens up the root immediately and before installing curl to the container first I run pat-get update:
+It opens up the root immediately and before installing curl to the container first I run apt-get update:
 ![1.3p2](https://github.com/kettroni/Docker/blob/master/Exercise1/ex1_3p2.png "Exercise 1.3p2")
 
 Then after I run apt-get install curl:
