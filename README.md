@@ -68,3 +68,8 @@ Back was run with:
 ```
 docker run -v c:/users/Ex1.6/logs.txt:/logs.txt -p 8000:8000 -it onesix
 ```
+
+## Ex 1.8
+
+All the instructions are found in the docker hub page:
+### https://hub.docker.com/r/kettroni/hailstonesequence
