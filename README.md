@@ -30,3 +30,16 @@ docker build -t curler .
 
 Now that I had created the image I simply ran it:  
 ![1.4](https://github.com/kettroni/Docker/blob/master/Exercise1/ex1_4.png "Exercise 1.4")
+
+## Ex 1.5
+[Dockerfile](https://github.com/kettroni/Docker/blob/master/Exercise1/Exercise1.5/Dockerfile)
+
+Building the image with Dockerfile: 
+```
+docker build -t onefive .
+```
+
+After that, I ran the image with success with the following code:
+```
+docker run -p 5000:5000 -it onefive
+```
