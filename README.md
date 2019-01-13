@@ -43,3 +43,13 @@ After that, I ran the image with success with the following code:
 ```
 docker run -p 5000:5000 -it onefive
 ```
+
+## Ex 1.6  
+
+[Dockerfile](https://github.com/kettroni/Docker/blob/master/Exercise1/Ex1.6/Dockerfile)
+
+After build then just run with command:  
+
+```
+docker run -v c:/users/Ex1.6/logs.txt:/logs.txt -p 8000:8000 -it onesix
+```
