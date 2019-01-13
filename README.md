@@ -53,3 +53,18 @@ After build then just run with command:
 ```
 docker run -v c:/users/Ex1.6/logs.txt:/logs.txt -p 8000:8000 -it onesix
 ```
+
+## Ex 1.7
+
+[Dockerfile Front (Added API_URL)](https://github.com/kettroni/Docker/blob/master/Exercise1/Ex1.7/DockerfileFront)  
+[Dockerfile Back (unchanged from 1.6)](https://github.com/kettroni/Docker/blob/master/Exercise1/Ex1.7/DockerfileBack)
+
+Front was run with:
+```
+docker run -p 5000:5000 -it onesevenfront
+```
+
+Back was run with:
+```
+docker run -v c:/users/Ex1.6/logs.txt:/logs.txt -p 8000:8000 -it onesix
+```
